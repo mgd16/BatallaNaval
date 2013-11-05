@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3B6E27DD18295B43009AF8BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27DC18295B43009AF8BE /* main.cpp */; };
 		3B6E27DF18295B43009AF8BE /* BatallaNaval.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B6E27DE18295B43009AF8BE /* BatallaNaval.1 */; };
+		3B6E27EA18295B8B009AF8BE /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27E818295B8B009AF8BE /* GameManager.cpp */; };
+		3B6E27ED18295BA6009AF8BE /* DBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27EB18295BA6009AF8BE /* DBManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		3B6E27D918295B43009AF8BE /* BatallaNaval */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BatallaNaval; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B6E27DC18295B43009AF8BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		3B6E27DE18295B43009AF8BE /* BatallaNaval.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BatallaNaval.1; sourceTree = "<group>"; };
+		3B6E27E818295B8B009AF8BE /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GameManager.cpp; path = ../GameManager.cpp; sourceTree = "<group>"; };
+		3B6E27E918295B8B009AF8BE /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = ../GameManager.h; sourceTree = "<group>"; };
+		3B6E27EB18295BA6009AF8BE /* DBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBManager.cpp; sourceTree = "<group>"; };
+		3B6E27EC18295BA6009AF8BE /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,10 @@
 		3B6E27DB18295B43009AF8BE /* BatallaNaval */ = {
 			isa = PBXGroup;
 			children = (
+				3B6E27EB18295BA6009AF8BE /* DBManager.cpp */,
+				3B6E27EC18295BA6009AF8BE /* DBManager.h */,
+				3B6E27E818295B8B009AF8BE /* GameManager.cpp */,
+				3B6E27E918295B8B009AF8BE /* GameManager.h */,
 				3B6E27DC18295B43009AF8BE /* main.cpp */,
 				3B6E27DE18295B43009AF8BE /* BatallaNaval.1 */,
 			);
@@ -118,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B6E27DD18295B43009AF8BE /* main.cpp in Sources */,
+				3B6E27ED18295BA6009AF8BE /* DBManager.cpp in Sources */,
+				3B6E27EA18295B8B009AF8BE /* GameManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
