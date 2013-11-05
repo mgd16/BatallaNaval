@@ -11,6 +11,8 @@
 		3B6E27DF18295B43009AF8BE /* BatallaNaval.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B6E27DE18295B43009AF8BE /* BatallaNaval.1 */; };
 		3B6E27EA18295B8B009AF8BE /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27E818295B8B009AF8BE /* GameManager.cpp */; };
 		3B6E27ED18295BA6009AF8BE /* DBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27EB18295BA6009AF8BE /* DBManager.cpp */; };
+		9ECB02B918295E94005928F7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B718295E94005928F7 /* GLUT.framework */; };
+		9ECB02BA18295E94005928F7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B818295E94005928F7 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +36,8 @@
 		3B6E27E918295B8B009AF8BE /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = ../GameManager.h; sourceTree = "<group>"; };
 		3B6E27EB18295BA6009AF8BE /* DBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBManager.cpp; sourceTree = "<group>"; };
 		3B6E27EC18295BA6009AF8BE /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		9ECB02B718295E94005928F7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		9ECB02B818295E94005928F7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ECB02B918295E94005928F7 /* GLUT.framework in Frameworks */,
+				9ECB02BA18295E94005928F7 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +56,8 @@
 		3B6E27D018295B43009AF8BE = {
 			isa = PBXGroup;
 			children = (
+				9ECB02B718295E94005928F7 /* GLUT.framework */,
+				9ECB02B818295E94005928F7 /* OpenGL.framework */,
 				3B6E27DB18295B43009AF8BE /* BatallaNaval */,
 				3B6E27DA18295B43009AF8BE /* Products */,
 			);
@@ -237,6 +245,7 @@
 				3B6E27E418295B43009AF8BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

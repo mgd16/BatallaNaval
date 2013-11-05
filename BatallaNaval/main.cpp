@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include <OpenGL/OpenGL.h>
 
 #include "GameManager.h"
 
