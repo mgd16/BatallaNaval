@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B6E27DD18295B43009AF8BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27DC18295B43009AF8BE /* main.cpp */; };
 		3B6E27DF18295B43009AF8BE /* BatallaNaval.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B6E27DE18295B43009AF8BE /* BatallaNaval.1 */; };
 		3B6E27EA18295B8B009AF8BE /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27E818295B8B009AF8BE /* GameManager.cpp */; };
 		3B6E27ED18295BA6009AF8BE /* DBManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27EB18295BA6009AF8BE /* DBManager.cpp */; };
+		3B6E27F018296587009AF8BE /* Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27EE18296587009AF8BE /* Water.cpp */; };
+		3B6E27F318296768009AF8BE /* GraphicsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27F118296768009AF8BE /* GraphicsManager.cpp */; };
+		3B6E27FE182968D2009AF8BE /* WaterTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B6E27FD182968D2009AF8BE /* WaterTest.1 */; };
+		3B6E280518296955009AF8BE /* Water.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27EE18296587009AF8BE /* Water.cpp */; };
+		3B6E28071829697C009AF8BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27DC18295B43009AF8BE /* main.cpp */; };
+		3B6E280818296BA9009AF8BE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B718295E94005928F7 /* GLUT.framework */; };
+		3B6E280918296BA9009AF8BE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B818295E94005928F7 /* OpenGL.framework */; };
+		3B6E280A18296ED5009AF8BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27FB182968D2009AF8BE /* main.cpp */; };
 		9ECB02B918295E94005928F7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B718295E94005928F7 /* GLUT.framework */; };
 		9ECB02BA18295E94005928F7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B818295E94005928F7 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
@@ -26,6 +33,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		3B6E27F7182968D2009AF8BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3B6E27FE182968D2009AF8BE /* WaterTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +53,13 @@
 		3B6E27E918295B8B009AF8BE /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameManager.h; path = ../GameManager.h; sourceTree = "<group>"; };
 		3B6E27EB18295BA6009AF8BE /* DBManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBManager.cpp; sourceTree = "<group>"; };
 		3B6E27EC18295BA6009AF8BE /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		3B6E27EE18296587009AF8BE /* Water.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Water.cpp; path = ../Water.cpp; sourceTree = "<group>"; };
+		3B6E27EF18296587009AF8BE /* Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Water.h; path = ../Water.h; sourceTree = "<group>"; };
+		3B6E27F118296768009AF8BE /* GraphicsManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphicsManager.cpp; sourceTree = "<group>"; };
+		3B6E27F218296768009AF8BE /* GraphicsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsManager.h; sourceTree = "<group>"; };
+		3B6E27F9182968D2009AF8BE /* WaterTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WaterTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6E27FB182968D2009AF8BE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3B6E27FD182968D2009AF8BE /* WaterTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WaterTest.1; sourceTree = "<group>"; };
 		9ECB02B718295E94005928F7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		9ECB02B818295E94005928F7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -50,6 +74,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3B6E27F6182968D2009AF8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6E280818296BA9009AF8BE /* GLUT.framework in Frameworks */,
+				3B6E280918296BA9009AF8BE /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -58,7 +91,9 @@
 			children = (
 				9ECB02B718295E94005928F7 /* GLUT.framework */,
 				9ECB02B818295E94005928F7 /* OpenGL.framework */,
+				3B6E27F418296781009AF8BE /* Graphics Stuff */,
 				3B6E27DB18295B43009AF8BE /* BatallaNaval */,
+				3B6E27FA182968D2009AF8BE /* WaterTest */,
 				3B6E27DA18295B43009AF8BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				3B6E27D918295B43009AF8BE /* BatallaNaval */,
+				3B6E27F9182968D2009AF8BE /* WaterTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +118,27 @@
 				3B6E27DE18295B43009AF8BE /* BatallaNaval.1 */,
 			);
 			path = BatallaNaval;
+			sourceTree = "<group>";
+		};
+		3B6E27F418296781009AF8BE /* Graphics Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				3B6E27EE18296587009AF8BE /* Water.cpp */,
+				3B6E27EF18296587009AF8BE /* Water.h */,
+				3B6E27F118296768009AF8BE /* GraphicsManager.cpp */,
+				3B6E27F218296768009AF8BE /* GraphicsManager.h */,
+			);
+			name = "Graphics Stuff";
+			path = BatallaNaval;
+			sourceTree = "<group>";
+		};
+		3B6E27FA182968D2009AF8BE /* WaterTest */ = {
+			isa = PBXGroup;
+			children = (
+				3B6E27FB182968D2009AF8BE /* main.cpp */,
+				3B6E27FD182968D2009AF8BE /* WaterTest.1 */,
+			);
+			path = WaterTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,6 +159,23 @@
 			name = BatallaNaval;
 			productName = BatallaNaval;
 			productReference = 3B6E27D918295B43009AF8BE /* BatallaNaval */;
+			productType = "com.apple.product-type.tool";
+		};
+		3B6E27F8182968D2009AF8BE /* WaterTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6E27FF182968D2009AF8BE /* Build configuration list for PBXNativeTarget "WaterTest" */;
+			buildPhases = (
+				3B6E27F5182968D2009AF8BE /* Sources */,
+				3B6E27F6182968D2009AF8BE /* Frameworks */,
+				3B6E27F7182968D2009AF8BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterTest;
+			productName = WaterTest;
+			productReference = 3B6E27F9182968D2009AF8BE /* WaterTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +200,7 @@
 			projectRoot = "";
 			targets = (
 				3B6E27D818295B43009AF8BE /* BatallaNaval */,
+				3B6E27F8182968D2009AF8BE /* WaterTest */,
 			);
 		};
 /* End PBXProject section */
@@ -135,9 +210,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B6E27DD18295B43009AF8BE /* main.cpp in Sources */,
+				3B6E27F018296587009AF8BE /* Water.cpp in Sources */,
 				3B6E27ED18295BA6009AF8BE /* DBManager.cpp in Sources */,
+				3B6E27F318296768009AF8BE /* GraphicsManager.cpp in Sources */,
+				3B6E28071829697C009AF8BE /* main.cpp in Sources */,
 				3B6E27EA18295B8B009AF8BE /* GameManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6E27F5182968D2009AF8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6E280A18296ED5009AF8BE /* main.cpp in Sources */,
+				3B6E280518296955009AF8BE /* Water.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +312,24 @@
 			};
 			name = Release;
 		};
+		3B6E2800182968D2009AF8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B6E2801182968D2009AF8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -246,6 +350,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		3B6E27FF182968D2009AF8BE /* Build configuration list for PBXNativeTarget "WaterTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6E2800182968D2009AF8BE /* Debug */,
+				3B6E2801182968D2009AF8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
