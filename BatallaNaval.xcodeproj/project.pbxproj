@@ -20,6 +20,8 @@
 		3B6E280A18296ED5009AF8BE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3B6E27FB182968D2009AF8BE /* main.cpp */; };
 		9ECB02B918295E94005928F7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B718295E94005928F7 /* GLUT.framework */; };
 		9ECB02BA18295E94005928F7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ECB02B818295E94005928F7 /* OpenGL.framework */; };
+		C2F51BC1182C3FC900795AC0 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F51BC0182C3FC900795AC0 /* GLUT.framework */; };
+		C2F51BC5182C3FD500795AC0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F51BC4182C3FD500795AC0 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +64,8 @@
 		3B6E27FD182968D2009AF8BE /* WaterTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = WaterTest.1; sourceTree = "<group>"; };
 		9ECB02B718295E94005928F7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		9ECB02B818295E94005928F7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C2F51BC0182C3FC900795AC0 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		C2F51BC4182C3FD500795AC0 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 			files = (
 				9ECB02B918295E94005928F7 /* GLUT.framework in Frameworks */,
 				9ECB02BA18295E94005928F7 /* OpenGL.framework in Frameworks */,
+				C2F51BC1182C3FC900795AC0 /* GLUT.framework in Frameworks */,
+				C2F51BC5182C3FD500795AC0 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +101,8 @@
 				3B6E27DB18295B43009AF8BE /* BatallaNaval */,
 				3B6E27FA182968D2009AF8BE /* WaterTest */,
 				3B6E27DA18295B43009AF8BE /* Products */,
+				C2F51BC0182C3FC900795AC0 /* GLUT.framework */,
+				C2F51BC4182C3FD500795AC0 /* OpenGL.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,7 +197,6 @@
 			};
 			buildConfigurationList = 3B6E27D418295B43009AF8BE /* Build configuration list for PBXProject "BatallaNaval" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -263,7 +270,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -294,7 +301,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.6;
 			};
 			name = Release;
 		};

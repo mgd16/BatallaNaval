@@ -10,14 +10,14 @@
 #define __BatallaNaval__Water__
 
 #include <iostream>
-#include <OpenGL/gltypes.h>
+#include <OpenGL/gl.h>
 
 class Water {
 private:
 	void setTexture();
 	void drawTriangle(GLfloat *v1, GLfloat *v2, GLfloat *v3);
 	void subdivide(GLfloat *v1, GLfloat *v2, GLfloat *v3, long depth);
-	GLfloat center[3] = {0.0, 0.0, 0.0};
+	float center[3];
 
 public:
 	//subdivide mesh to get better watter movement
